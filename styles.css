@@ -1,0 +1,32 @@
+.cart-container {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.quantity-control button {
+    cursor: pointer;
+}
+
+.like-item {
+    cursor: pointer;
+    color: grey;
+}
+
+.like-item.liked {
+    color: red;
+}
+
+.total {
+    text-align: right;
+    font-size: 18px;
+    margin-top: 20px;
+}
